@@ -66,7 +66,7 @@
 
 AgentToll provides a marketplace of 115 priced AI work products across markets, contracts, OSINT, research, security, and public-data monitoring. Users can inspect task details, spend caps, seller info, expected results, and receipt paths before paying USDC on Base. The platform offers diverse data feeds including market trends, geopolitical signals, financial indicators, and more.
 
-**Areas:** AI · Marketplace · Payments · USDC · DataFeeds · Agents
+**Areas:** Artificial Intelligence · Marketplace · Payments · USDC · Data Feed · Agents
 
 ## AgentToll on APIs.io
 
@@ -91,11 +91,24 @@ Everything profiled for AgentToll is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agenttoll-dev-mcp.yml](https://apis.io/servers/agenttoll-dev/agenttoll-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agenttoll Dev Agentic Access](https://apis.io/agentic-access/agenttoll-dev/agenttoll-dev-agentic-access/)
+- [AgentToll Agentic Access](https://apis.io/agentic-access/agenttoll-dev/agenttoll-dev-agentic-access/)
+
+#### Overlays (2)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [AgentToll Admin Api Certification Overlay](https://apis.io/overlays/agenttoll-dev/agenttoll-dev-admin-api-certification-overlay/)
+- [AgentToll Openapi Overlay](https://apis.io/overlays/agenttoll-dev/agenttoll-dev-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -107,14 +120,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agenttoll Dev Authentication](https://apis.io/security/agenttoll-dev/agenttoll-dev-authentication/)
-- [Agenttoll Dev Domain Security](https://apis.io/security/agenttoll-dev/agenttoll-dev-domain-security/)
+- [AgentToll Authentication](https://apis.io/security/agenttoll-dev/agenttoll-dev-authentication/)
+- [AgentToll Domain Security](https://apis.io/security/agenttoll-dev/agenttoll-dev-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agenttoll Dev Scopes](https://apis.io/scopes/agenttoll-dev/agenttoll-dev-scopes/)
+- [AgentToll Scopes](https://apis.io/scopes/agenttoll-dev/agenttoll-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [AgentToll Plans Pricing](https://apis.io/plans/agenttoll-dev/agenttoll-dev-plans-pricing/)
 
 ## Where to find this API
 
@@ -128,23 +147,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 27.9** — thin · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 26.5** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 37.4 |
-| Contract governance | 65.5 |
-| Operational transparency | 5.3 |
+| Discoverability | 81.7 |
+| Contract quality | 40.5 |
+| Contract governance | 18.2 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 19.0 |
-| Access clarity | 0.0 |
+| Access clarity | 17.0 |
 
-**Agent readiness 30.2** — agent-ready
+**Agent readiness 25.4** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -165,8 +184,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 17.5** — Payments
+**Regulatory alignment 12.5** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agenttoll-dev/](https://apis.io/providers/agenttoll-dev/).
 
